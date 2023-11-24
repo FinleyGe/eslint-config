@@ -1,0 +1,9 @@
+{
+  "name": "@finleyge/eslint-config",
+  "version": "1.0.0",
+  "description": "ESlint config used by Finley Ge",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

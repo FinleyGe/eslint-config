@@ -1,0 +1,22 @@
+{
+  "name": "@finley_ge/eslint-config-vue",
+  "version": "0.1.0",
+  "author": "Finley Ge",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config",
+    "vue"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "dependencies": {
+    "@finley_ge/eslint-config-base": "^0.1.0",
+    "@finley_ge/eslint-config-ts": "^0.1.0",
+    "eslint-plugin-vue": "^7.10.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@finley_ge/eslint-config-ts",
+  "version": "0.1.1",
+  "description": "",
+  "author": "FinleyGe",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@finley_ge/eslint-config-base": "^0.1.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  }
+}

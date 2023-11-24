@@ -1,0 +1,17 @@
+{
+  "name": "@finley_ge/eslint-config-base",
+  "version": "0.1.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "eslint-config"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "FinleyGe",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  }
+}
