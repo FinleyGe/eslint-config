@@ -5,9 +5,15 @@ module.exports = {
     "quotes": ["error", "double"],
     "semi": [2, "always"],
     "no-multiple-empty-lines": ["warn", { "max": 1, "maxEOF": 0 }],
-    "sort-imports": ["error", {
-      "memberSyntaxSortOrder": ["multiple", "single", "all", "none"]
-    }],
-    "linebreak-style": ["error", "unix"]
-  }
+    "linebreak-style": ["error", "unix"],
+    "import/order": "error",
+    "import/newline-after-import": "error",
+  },
+  plugins: [
+    "import"
+  ],
+  extends: [
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
 };
