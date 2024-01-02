@@ -6,7 +6,21 @@ module.exports = {
     "semi": [2, "always"],
     "no-multiple-empty-lines": ["warn", { "max": 1, "maxEOF": 0 }],
     "linebreak-style": ["error", "unix"],
-    "import/order": "error",
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "index",
+          "sibling",
+          "parent",
+          "internal",
+          "external",
+          "builtin",
+          "object",
+          "type"
+        ]
+      }
+    ],
     "import/newline-after-import": "error",
   },
   plugins: [
