@@ -9,6 +9,7 @@ module.exports = {
     "import/order": [
       "error",
       {
+        "newlines-between": "always",
         "groups": [
           "index",
           "sibling",
@@ -27,6 +28,7 @@ module.exports = {
     "import"
   ],
   extends: [
+    "eslint:recommended",
     "plugin:import/errors",
     "plugin:import/warnings"
   ],
